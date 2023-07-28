@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit:wght@200&family=Raleway:wght@200&family=Ubuntu:wght@300&display=swap');
+
+main{
+    padding-top: 80px;
+}
+
+*{
+    margin: 0 auto;
+}
+header{
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    display: flex;
+    align-items:center;
+}
+nav ul{
+    display: flex;
+}
+.list_item{
+    margin-left: 20px;
+    font-family: Raleway,arial,sans-serif;
+    font-weight: bold;
+}
+.home_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.p1{
+    font-family: Ubuntu,Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    width: 70%;
+}
+.welcome{
+    margin-left: 140px;
+}
+.about_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 40px 0;
+    height: 250px;
+    width: 800px;
+    margin-top: 50px;
+}
+.creation{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 22px 40px 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+    overflow:hidden;
+    background: #001ff4;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 140%;
+    width: 60%;
+    font-family: Kanit,Arial,sans-serif;
+}
+.creation:hover{
+    transform: scale(1.15 , 1.15);
+    transition: 0.2s;
+}
+.current_owners{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 22px 40px 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+    overflow:hidden;
+    background: #001ff4;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 140%;
+    width: 60%;
+    font-family: Kanit,Arial,sans-serif;
+}
+.current_owners:hover{
+    transform: scale(1.15 , 1.15);
+    transition: 0.2s;
+}
+.location{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 22px 40px 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+    overflow:hidden;
+    background: #001ff4;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 140%;
+    width: 60%;
+    font-family: Kanit,Arial,sans-serif;
+}
+.location:hover{
+    transform: scale(1.15 , 1.15);
+    transition: 0.2s;
+}
+.repairing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.man_reapring{
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    padding: 20px 20px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 38, 255);
+    border-width: 2px;
+}
+.repairing_txt_box{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    font-family: Ubuntu,arial,sans-serif;
+    font-size: 30px;
+    padding: 22px 40px 22px;
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 600px;
+}
+
+.selling{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.man_selling{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    padding: 20px 20px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 38, 255);
+    border-width: 2px;
+}
+.selling_txt_box{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    font-family: Ubuntu,arial,sans-serif;
+    font-size: 30px;
+    padding: 22px 40px 22px;
+    margin-left: 50px;
+    margin-top: 0px;
+    width: 600px;
+}
+.contact_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 40px 0;
+    height: 250px;
+    width: 800px;
+    margin-top: 50px;
+}
+.facebook_contact{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 22px 40px 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+    overflow:hidden;
+    background: #f40000;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 140%;
+    width: 80%;
+    font-family: Kanit,Arial,sans-serif;
+    font-size: 20px;
+}
+.facebook_contact:hover{
+    transform: scale(1.15 , 1.15);
+    transition: 0.2s;
+}
+.email_contact{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 22px 40px 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+    overflow:hidden;
+    background: #f40000;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 140%;
+    width: 80%;
+    font-family: Kanit,Arial,sans-serif;
+    font-size: 20px;
+}
+.The_email{
+    font-size: 15px;
+    margin-left: -25px;
+}
+.email_contact:hover{
+    transform: scale(1.15 , 1.15);
+    transition: 0.2s;
+}
+.call_contact{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 22px 40px 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+    overflow:hidden;
+    background: #f40000;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 140%;
+    width: 80%;
+    font-family: Kanit,Arial,sans-serif;
+    font-size: 20px;
+}
+.call_contact:hover{
+    transform: scale(1.15 , 1.15);
+    transition: 0.2s;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.my_pfp{
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    padding: 20px 20px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 38, 255);
+    border-width: 2px;
+}
+.copyright_txt_box{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    font-family: Ubuntu,arial,sans-serif;
+    font-size: 30px;
+    padding: 22px 40px 22px;
+    margin-left: 160px;
+    margin-top: 70px;
+    width: 650px;
+    line-height: 50px;
+    font-weight: bold;
+}
